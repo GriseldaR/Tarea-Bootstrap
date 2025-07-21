@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/main.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container mt-4">
+  <div class="carousel-box">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="pics/sombrero.jpeg" class="d-block w-100 carrusel-img" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+          <img src="pics/cuetes.jpeg" class="d-block w-100 carrusel-img" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+          <img src="pics/lengua oreja.JPG" class="d-block w-100 carrusel-img" alt="Imagen 3">
+        </div>
+        <div class="carousel-item">
+          <img src="pics/puppy.jpg" class="d-block w-100 carrusel-img" alt="Imagen 4">
+        </div>
+        <div class="carousel-item">
+          <img src="pics/monta borregas.JPG" class="d-block w-100 carrusel-img" alt="Imagen 5">
+        </div>
+        <div class="carousel-item">
+          <img src="pics/sunshine.jpg" class="d-block w-100 carrusel-img" alt="Imagen 6">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
+<hr>
+ <div class="container my-4">
+    <div class="row g-0 card-grid">
+      <!--1 -->
+      <div class="col-6">
+        <div class="card custom-card">
+          <img src="pics/1.jpg" class="card-img-top img-fluid" alt="Imagen 1">
+          <div class="card-body p-2">
+          <h5 class="card-title">Sum sum río1</h5>
+          <p class="card-text">Cuando fuimos al río y observamos aves migratorias</p>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col-6">
+        <div class="card custom-card">
+          <img src="pics/flores.jpg" class="card-img-top img-fluid" alt="Imagen 2">
+          <div class="card-body p-2">
+          <h5 class="card-title">sum sum feliz entre flores</h5>
+          <p class="card-text">Observó bichos y le gustaron mucho las mariposas</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col-6">
+        <div class="card custom-card">
+          <img src="pics/granizo.jpg" class="card-img-top img-fluid" alt="Imagen 3">
+          <div class="card-body p-2">
+          <h5 class="card-title">sum sum descurbiendo el granizo</h5>
+          <p class="card-text">jugamos a aventarnos granizo a patadas</p>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="col-6">
+        <div class="card custom-card">
+          <img src="pics/arbol.jpg" class="card-img-top img-fluid" alt="Imagen 4">
+          <div class="card-body p-2">
+          <h5 class="card-title">Sum sum cuando fuimos al cerro con el manantial natural</h5>
+          <p class="card-text">fue un día hermoso, aunque me tiró a una barranca</p>
+          </div>
+        </div></div>
+      </div>
+      </div>
+<hr>
+<div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h5>Cosas favoritas de S2</h5>
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item">Comer tortillas de maíz natural, tiene su propia milpa 🤩</li>
+          <li class="list-group-item">montar borregas</li>
+          <li class="list-group-item">Lenguetear los oídos de las personas con la lengua "hecha taquito" para que entrte lo más profundo posible</li>
+          <li class="list-group-item">conocer extraños con manos que puedan acariciar su linda barriguita</li>
+          <li class="list-group-item">subir cerros</li>
+          <li class="list-group-item">Comer sandía</li>
+        </ol>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5>sus enemigos</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Las avispas</li>
+          <li class="list-group-item">Los hombres</li>
+          <li class="list-group-item">Las guajolotas que son mamás</li>
+          <li class="list-group-item">Las ardillas</li>
+          <li class="list-group-item">El paseador de perros de Torres</li>
+          <li class="list-group-item">Los cuetes</li>
+        </ul>
+       </div>
+    </div>
+                                                                                                                                 </div>
+<hr>
+<footer class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-3">
+        <h5>Sobre nosotros</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptates! Distinctio quasi eligendi cum ipsum labore aperiam qui architecto blanditiis velit! Veritatis mollitia ex fugit maxime similique, possimus illo deserunt.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h5>Ubicación</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque, doloribus, praesentium saepe necessitatibus odio ipsum eveniet atque, quaerat nam blanditiis. Eligendi earum a magnam dolor quos repellat ab voluptatibus! </p>
+      </div>
+      
+      <div class="col-md-3">
+        <h5>Contacto</h5>
+        <p>Email: s2@dog.com<br>Tel: +52 55 1234 5678</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+html{
+    --bg-color: #fff9bd;
+    --primary-color: #ffd6ba;
+    --hg-color: #599251;
+    --secondary-color: #dee791;
+
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+    font-family: "Dancing Script", cursive;
+    /* font-size: 50px; */
+    height: 600vh;
+ }
+.carousel-box {
+  max-width: 350px;
+  max-height: 450px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+.carrusel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* cards */
+.card-grid {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.custom-card {
+  height: 100%;
+  border: none;
+  overflow: hidden;
+}
+.custom-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+.card-body {
+  background-color: #f8f9fa;
+  text-align: center;
+  height: 100px;
+}
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.card-text {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+body {
+  background-color: #f9f9f9;
+}
+h5 {
+  font-weight: bold;
+  color: #df9290;
+}
+.list-group-item {
+  font-size: 1rem;
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+footer{
+  background-color: rgba(0, 255, 255, 0.274);
+} 
+hr
+.footer p {
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.4;
+}
